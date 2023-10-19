@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Perguntas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="question-container" class="question-container">
+        <div id="question" class="question"></div>
+        <div id="alternatives" class="alternatives"></div>
+    </div>
+    <button id="next-question-btn">Próxima Pergunta</button>
+    <button id="add-question-btn">Adicionar Pergunta</button>
+    <div id="add-question-form" class="hidden">
+        <label for="new-question">Nova Pergunta:</label>
+        <input type="text" id="new-question" required><br>
+        <label for="option-a">Opção A:</label>
+        <input type="text" id="option-a" required><br>
+        <label for="option-b">Opção B:</label>
+        <input type="text" id="option-b" required><br>
+        <label for="option-c">Opção C:</label>
+        <input type="text" id="option-c" required><br>
+        <label for="option-d">Opção D:</label>
+        <input type="text" id="option-d" required><br>
+        <label for="correct-answer">Resposta Correta (A, B, C ou D):</label>
+        <input type="text" id="correct-answer" required><br>
+        <button id="submit-question-btn">Adicionar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
